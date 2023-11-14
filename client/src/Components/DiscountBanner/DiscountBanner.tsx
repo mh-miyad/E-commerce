@@ -1,16 +1,23 @@
+"use client";
 import React from "react";
+import { IoIosClose } from "react-icons/io";
 
 const DiscountBanner = () => {
   return (
-    <div className="text-center  bg-black">
-      <p className=" [font-family:'Satoshi-Regular',Helvetica] font-normal text-white text-[16px] tracking-[0] leading-[normal]">
-        <span className="[font-family:'Satoshi-Regular',Helvetica] font-normal text-white text-[12px] tracking-[0]">
+    <div className="text-xs py-2 text-white bg-black px-5 ">
+      <div className=" flex  justify-between items-center">
+        <p className="">
           Sign up and get 20% off to your first order.{" "}
-        </span>
-        <span className="[font-family:'Satoshi-Medium',Helvetica] font-medium underline">
-          Sign Up Now
-        </span>
-      </p>
+          <span className="underline underline-offset-4 font-medium">
+            Sign Up Now
+          </span>
+        </p>
+        <button className="" onClick={() => alert("click here ")}>
+          <span>
+            <IoIosClose className=" w-5 h-5" />
+          </span>
+        </button>
+      </div>
     </div>
   );
 };

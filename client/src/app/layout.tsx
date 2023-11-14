@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Kulim_Park } from "next/font/google";
 import "./globals.css";
-import NavbarComp from "@/Components/Navbar/NavbarComp";
+import { NavbarComp } from "@/Components/Navbar/NavbarComp";
 
 const inter = Kulim_Park({ subsets: ["latin"], weight: "600" });
 
