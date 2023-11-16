@@ -33,14 +33,14 @@ const Header = () => {
               <span>international brand</span>
             </p>
             <p className="text-center">
-              <span className="text-xl md:text-3xl lg:text-5xl">640+</span>
+              <span className="text-xl md:text-3xl lg:text-5xl">6440+</span>
               <br />
-              <span>international brand</span>
+              <span>High-Quality Products</span>
             </p>
             <p className="text-center">
-              <span className="text-xl md:text-3xl lg:text-5xl">890+</span>
+              <span className="text-xl md:text-3xl lg:text-5xl">30,00+</span>
               <br />
-              <span>international brand</span>
+              <span>Happy Customers</span>
             </p>
           </div>
         </div>

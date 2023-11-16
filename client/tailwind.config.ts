@@ -7,7 +7,9 @@ module.exports = {
     "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
     "./node_modules/flowbite-react/**/*.js",
+    "./node_modules/keep-react/**/*.{js,jsx,ts,tsx}",
   ],
+  presets: [require("keep-react/src/keep-preset.js")],
   theme: {
     container: {
       center: true,
