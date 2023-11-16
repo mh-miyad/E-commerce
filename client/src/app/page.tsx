@@ -7,7 +7,7 @@ export default function Home() {
     <div className="max-w-7xl mx-auto ">
       <Header />
       {/*  here Start New Arrivals  */}
-      <div>
+      <section>
         <div className="text-center my-10">
           <p className="text-[2.3rem] md:text-[4.4rem] font-bold drop-shadow-2xl">
             {" "}
@@ -15,17 +15,41 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="flex justify-center flex-wrap gap-10">
-          {data.map((e) => {
-            return (
-              <>
-                <CardComp />
-              </>
-            );
-          })}
+        <div className=" ">
+          <div className="flex-wrap flex justify-center  gap-10 overflow-x-scroll">
+            {data.map((e) => {
+              return (
+                <>
+                  <CardComp />
+                </>
+              );
+            })}
+          </div>
         </div>
-      </div>
+      </section>
       {/*  here Start New Arrivals  */}
+      {/* here Start Top Selling   */}
+      <section>
+        <div className="text-center my-10">
+          <p className="text-[2.3rem] md:text-[4.4rem] font-bold drop-shadow-2xl">
+            {" "}
+            Top Selling{" "}
+          </p>
+        </div>
+
+        <div className=" ">
+          <div className="flex-wrap flex justify-center  gap-10 overflow-x-scroll">
+            {data.map((e) => {
+              return (
+                <>
+                  <CardComp />
+                </>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+      {/* here Start Top Selling   */}
     </div>
   );
 }
