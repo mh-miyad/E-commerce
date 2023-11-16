@@ -1,4 +1,5 @@
 import CardComp from "@/Components/Card/Card";
+import CategoryBanner from "@/Components/CategoryBanner/CategoryBanner";
 import Header from "@/Components/Header/Header";
 
 export default function Home() {
@@ -48,6 +49,18 @@ export default function Home() {
             })}
           </div>
         </div>
+      </section>
+      {/* here Start Top Selling   */}
+      {/* here Start Top Selling   */}
+      <section>
+        <div className="text-center my-10">
+          <p className="text-[2.3rem] md:text-[4.4rem] font-bold drop-shadow-2xl break-words ">
+            {" "}
+            BROWSE BY <br /> dress STYLE{" "}
+          </p>
+        </div>
+
+        <CategoryBanner />
       </section>
       {/* here Start Top Selling   */}
     </div>
