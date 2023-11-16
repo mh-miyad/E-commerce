@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Kulim_Park } from "next/font/google";
+import { Kdam_Thmor_Pro } from "next/font/google";
 import "./globals.css";
 import { NavbarComp } from "@/Components/Navbar/NavbarComp";
 
-const inter = Kulim_Park({ subsets: ["latin"], weight: "600" });
+const inter = Kdam_Thmor_Pro({ subsets: ["khmer"], weight: "400" });
 
 export const metadata: Metadata = {
   title: "Create Next App",
